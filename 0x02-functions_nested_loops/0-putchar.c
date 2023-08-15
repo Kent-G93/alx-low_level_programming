@@ -2,6 +2,7 @@
 
 /**
   * main - A program that prints _putchar then newline
+  * uses the function _putchar.c
   * Return: 0 (Success)
 */
 
