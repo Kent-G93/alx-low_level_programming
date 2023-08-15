@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - fibonacci first 98 
+ * main - fibonacci first 98
  * Return: 0 (Success)
  */
 
