@@ -18,16 +18,16 @@ unsigned int _strspn(char *s, char *accept)
 
 		for (a = accept; *a != '\0'; a++)
 		{
-			if (s == a)
+			if (*s == *a)
 			{
 				found = 1;
 				break;
 			}
-			else if (found == 0)
+		}
+			if (found == 0)
 			{
 				break;
 			}
-		}
 		count++;
 		s++;
 	}
