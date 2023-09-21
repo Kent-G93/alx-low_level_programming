@@ -2,8 +2,7 @@
 #include "lists.h"
 
 /**
- * print_list - function to print linked list
- * @list_t:
+ * print_list - function to print linked list_t list
  * @h: head of linked lists
  * Return: printed chars
 */
