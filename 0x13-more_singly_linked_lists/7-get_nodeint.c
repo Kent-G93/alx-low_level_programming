@@ -23,6 +23,6 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 		current = current->next;
 		count++;
 	}
-	/**Node at index does not exist*/
+	/**if node at given index does not exist*/
 	return (NULL);
 }
