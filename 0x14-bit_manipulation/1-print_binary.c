@@ -30,7 +30,8 @@ void print_binary(unsigned long int n)
 			_putchar('1');
 			/*Turn off the leadingZero flag after the first '1' is encountered*/
 			leadingZero = 0;
-		} else if (!leadingZero)
+		}
+		else if (!leadingZero)
 		{
 			_putchar('0');
 		}
