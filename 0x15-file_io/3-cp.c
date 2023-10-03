@@ -12,7 +12,7 @@ void close_f(int fd);
 int main(int argc, char *argv[])
 {
 	int fd_from, fd_to, bytes_read, bytes_written;
-	char buffer[BUFFER_SIZE];
+	char *buffer[BUFFER_SIZE];
 
 	if (argc != 3)
 	{
